@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   resources :books do
     resources :reviews
   end
-  root 'restaurants#edit'
+  root 'books#edit'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -23,7 +23,7 @@ test:
 production:
   adapter: mysql2
   encoding: utf8
-  database: sparta_booklog
+  database: origin
   port: 3306
   username: root
   password: 12345678
